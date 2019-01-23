@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<root  xmlns:h="http://www.v3.org/uri1"  xmlns:f="http://www.v3.org/uri2">
+	<!-- Adding name prefix to force XML to create each table as a different element, rather than an array
+	To accomplish it, xml namespace need to be defined by adding the using xmlns attribute -->
+	<h:table>
+		<h:type>
+			coffee
+		</h:type>
+		<h:name>
+			African Table
+		</h:name>
+		<h:size>
+			large
+		</h:size>
+	</h:table>
+	<f:table>
+		<f:tr>
+			<f:td>
+				Apple
+			</f:td>
+			<f:td>
+				Oranges
+			</f:td>
+		</f:tr>
+	
+	</f:table>
+</root>
