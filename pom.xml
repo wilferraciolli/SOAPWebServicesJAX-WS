@@ -103,7 +103,7 @@
 					<!-- http port for deploying to remote server -->
 					<server>tomcat</server>
 					<url>http://localhost:8081/manager/text</url>
-					<path>/thecentralservice</path>
+					<path>/SOAPWebServiceJaxWS</path>
 					<update>true</update>
 					<additionalClasspathDirs>
 					</additionalClasspathDirs>
